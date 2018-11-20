@@ -335,6 +335,7 @@
     <Content Include="style\lanrentuku.css" />
     <Content Include="style\Search.css" />
     <Content Include="style\shjdown.ascx" />
+    <Content Include="style\style.css" />
     <Content Include="style\style1.css" />
     <Content Include="TdView.aspx" />
     <Content Include="tools\HtmlAjax.ashx" />
@@ -885,7 +886,6 @@
     <Content Include="style\cs.css" />
     <Content Include="style\cs_sj.css" />
     <Content Include="style\global-min.css" />
-    <Content Include="style\style.css" />
     <Content Include="style\vip.css" />
     <Content Include="style\xxx.css" />
     <Content Include="style\zzsc.css" />
