@@ -48,6 +48,16 @@
             $("#DivPublish").show();
         }
     </script>
+    <script src="js/jquery.liMarquee.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('.str1').liMarquee({
+                direction: 'up',
+                scrollamount: 10
+            });
+
+        });
+    </script>
     <script type="text/javascript">
         $(document).ready(function () {
             jQuery.jqtab = function (tabtit, tab_conbox, shijian) {
@@ -304,7 +314,7 @@
                 <uc1:HelperPage ID="HelperPage1" runat="server" />
             </div>
         </div>
-       <uc4:foot ID="foot1" runat="server" />
+        <uc4:foot ID="foot1" runat="server" />
         <script type="text/javascript">
             $(document).ready(function () {
 

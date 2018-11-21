@@ -58,7 +58,7 @@
                     </td>
 
                     <td>
-                        <a href="Area_edit.aspx?action=<%#DTEnums.ActionEnum.Edit %>&id=<%#Eval("id")%>">
+                        <a href="horse_edit.aspx?action=<%#DTEnums.ActionEnum.Edit %>&id=<%#Eval("id")%>">
                             <%#Eval("title")%></a>
                     </td>
                     <td align="center">

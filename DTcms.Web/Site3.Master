@@ -69,6 +69,16 @@
             HideValue(i);
         }
     </script>
+      <script src="js/jquery.liMarquee.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('.str1').liMarquee({
+                direction: 'up',
+                scrollamount: 10
+            });
+
+        });
+    </script>
     <script type="text/javascript">
         $(document).ready(function () {
             jQuery.jqtab = function (tabtit, tab_conbox, shijian) {
@@ -222,7 +232,7 @@
                 </ul>
             </div>
         </div>
-         <!--跑馬燈-->
+        <!--跑馬燈-->
         <uc3:horse ID="horse1" runat="server" />
         <!--頭部廣告圖片-->
         <div id="lunhuan">
@@ -275,7 +285,7 @@
                 <uc1:HelperPage ID="HelperPage1" runat="server" />
             </div>
         </div>
-            <uc4:foot ID="foot1" runat="server" />
+        <uc4:foot ID="foot1" runat="server" />
         <script type="text/javascript">
             $(document).ready(function () {
 
@@ -297,12 +307,14 @@
 
                 <li><a href="http://www.empro.com.tw/Notibook.aspx?mid=10">
                     <div class="sidebox">
-                        <img src="images/side_icon02.png">留言諮詢</div>
+                        <img src="images/side_icon02.png">留言諮詢
+                    </div>
                 </a></li>
 
                 <li style="border: none;"><a href="javascript:goTop();" class="sidetop">
                     <div class="sidebox">
-                        <img src="images/side_icon05.png">返回頂部</div>
+                        <img src="images/side_icon05.png">返回頂部
+                    </div>
                 </a></li>
             </ul>
         </div>
