@@ -49,6 +49,15 @@ namespace DTcms.Web {
         protected global::System.Web.UI.WebControls.LinkButton lbtnout;
         
         /// <summary>
+        /// horse1 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::DTcms.Web.Usercontrol.horse horse1;
+        
+        /// <summary>
         /// lunbo1 控件。
         /// </summary>
         /// <remarks>
@@ -146,5 +155,14 @@ namespace DTcms.Web {
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::DTcms.Web.HelperPage HelperPage1;
+        
+        /// <summary>
+        /// foot1 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::DTcms.Web.Usercontrol.foot foot1;
     }
 }

@@ -176,8 +176,9 @@ namespace DTcms.Web.tools
             strs += "<li><a class=\"l-link\" href=\"javascript:f_addTab('sys_helper','幫助中心','helper.aspx?channel_id=100')\">幫助中心</a></li>\n";
 
             strs += "<li><a class=\"l-link\" href=\"javascript:f_addTab('sys_lunbo','輪播-廣告圖','lunbo_list.aspx')\">輪播-廣告圖</a></li>\n";
+            strs += "<li><a class=\"l-link\" href=\"javascript:f_addTab('sys_running_Horse_lamp','跑馬燈','horse_list.aspx')\">跑馬燈</a></li>\n";
 
-           // strs += "<li><a class=\"l-link\" href=\"javascript:f_addTab('sys_VipFile','VIP帳戶文件','vipfile_list.aspx')\">VIP帳戶文件</a></li>\n";
+            // strs += "<li><a class=\"l-link\" href=\"javascript:f_addTab('sys_VipFile','VIP帳戶文件','vipfile_list.aspx')\">VIP帳戶文件</a></li>\n";
             strs += "<li><a class=\"l-link\" href=\"javascript:f_addTab('dt_user_need','用戶需求','UserNeedList.aspx')\">用戶需求</a></li>\n";
             strs += "<li><a class=\"l-link\" href=\"javascript:f_addTab('Freight','運費管理','Freight.aspx')\">運費管理</a></li>\n";
             context.Response.Write(strs);

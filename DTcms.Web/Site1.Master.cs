@@ -27,16 +27,8 @@ namespace DTcms.Web
             {
                 Binddata();
             }
-            LoadAccess();
         }
 
-        private void LoadAccess()
-        {
-            BLL.ipAccess bll = new BLL.ipAccess();
-
-            TotalCount = bll.GetAllCount();
-            TodayCount = bll.GetTodayCount();
-        }
 
         private void Binddata()
         {

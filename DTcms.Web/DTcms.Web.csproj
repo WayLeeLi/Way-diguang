@@ -173,6 +173,8 @@
     <Content Include="admin\images\noimg.gif" />
     <Content Include="admin\images\order_speed.gif" />
     <Content Include="admin\helper.aspx" />
+    <Content Include="admin\horse_edit.aspx" />
+    <Content Include="admin\horse_list.aspx" />
     <Content Include="admin\manager\nav_list.aspx" />
     <Content Include="admin\manager\nav_edit.aspx" />
     <Content Include="admin\Area_edit.aspx" />
@@ -344,6 +346,7 @@
     <Content Include="upgrade\pay.aspx" />
     <Content Include="upUser.aspx" />
     <Content Include="Usercontrol\foot.ascx" />
+    <Content Include="Usercontrol\horse.ascx" />
     <Content Include="Usercontrol\shjdown.ascx" />
     <Content Include="Usercontrol\ditie.ascx" />
     <Content Include="editor\kindeditor-min.js" />
@@ -1162,6 +1165,20 @@
     </Compile>
     <Compile Include="admin\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\horse_edit.aspx.cs">
+      <DependentUpon>horse_edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\horse_edit.aspx.designer.cs">
+      <DependentUpon>horse_edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\horse_list.aspx.cs">
+      <DependentUpon>horse_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\horse_list.aspx.designer.cs">
+      <DependentUpon>horse_list.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin\manager\manager_edit.aspx.cs">
       <DependentUpon>manager_edit.aspx</DependentUpon>
@@ -2016,6 +2033,13 @@
     </Compile>
     <Compile Include="Usercontrol\foot.ascx.designer.cs">
       <DependentUpon>foot.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrol\horse.ascx.cs">
+      <DependentUpon>horse.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usercontrol\horse.ascx.designer.cs">
+      <DependentUpon>horse.ascx</DependentUpon>
     </Compile>
     <Compile Include="Usercontrol\shjdown.ascx.cs">
       <DependentUpon>shjdown.ascx</DependentUpon>
