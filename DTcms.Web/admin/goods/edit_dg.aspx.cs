@@ -79,7 +79,7 @@ namespace DTcms.Web.admin.goods
             txtMarketPrice.Text = model.market_price.ToString();
             txtSellPrice.Text = model.sell_price.ToString();
             //txtPoint.Text = model.point.ToString();
-           // txtLinkUrl.Text = model.link_url;
+            // txtLinkUrl.Text = model.link_url;
             txtTime.Text = model.add_time.ToString();
             //txtuser.Text = model.lianxiren;
             txtIntroduce.Text = model.shangpinType;
@@ -361,7 +361,7 @@ namespace DTcms.Web.admin.goods
             model.market_price = decimal.Parse(txtMarketPrice.Text);
             model.sell_price = decimal.Parse(txtSellPrice.Text);
             //model.point = Utils.StringToNum(txtPoint.Text);
-           // model.link_url = txtLinkUrl.Text.Trim();
+            // model.link_url = txtLinkUrl.Text.Trim();
             model.img_url = focus_photo.Value;
             model.content = txtContent.Value;
             model.seo_title = txtSeoTitle.Text.Trim();
@@ -671,7 +671,7 @@ namespace DTcms.Web.admin.goods
 
             //model.Areaid = Convert.ToInt32(ddlAreaid.SelectedValue);
 
-            model.Status = xiajiacheck.Checked ? 2 : model.Status;
+            model.Status = xiajiacheck.Checked ? 2 : 1;
             model.xiajialiyou = xiajiatext.Value;
             if (!bll.Update(model))
             {
