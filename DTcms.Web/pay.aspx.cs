@@ -24,6 +24,7 @@ namespace DTcms.Web
             string merchantid1 = doc.SelectSingleNode(@"Root/merID").InnerText;
             string HashKey = doc.SelectSingleNode(@"Root/MerchantID").InnerText;
             string HashIV = doc.SelectSingleNode(@"Root/TerminalID").InnerText;
+            string SummitUrl = doc.SelectSingleNode(@"Root/SummitUrl").InnerText;
 
             id = Request["id"];
             paymenttype = Request["paymenttype"];
@@ -169,11 +170,8 @@ namespace DTcms.Web
                 // Response.Write(CheckMacValue);
 
 
-                //Atm缴费http://payment-stage.allpay.com.tw/Cashier/AioCheckOut
+                sbHtml.Append("<form id='paysubmit' name='ecbanksubmit' action='" + SummitUrl + "' method='post'>");
 
-                //sbHtml.Append("<form id='paysubmit' name='ecbanksubmit' action='https://payment.allpay.com.tw/Cashier/AioCheckOut'  method='post'>");
-
-                sbHtml.Append("<form id='paysubmit' name='ecbanksubmit' action=' https://payment-stage.allpay.com.tw/Cashier/AioCheckOut/V2' method='post'>");    //测试URL
                 if (ptype == "Alipay")
                 {
                     sbHtml.Append("<input type='hidden' name='AlipayItemCounts' value='1'/>");

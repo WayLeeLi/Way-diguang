@@ -280,7 +280,7 @@
                     </a>
                     <img src="<%=HostUrl %>/images/top_ico4.jpg" name="top_ico1" id="top_ico1" />
 
-                    <li style="position: relative;"><a href="javascrpt:;" id="BuyPublish" style="text-decoration: none; color: white;" onclick="showPublish()">
+                    <%--<li style="position: relative;"><a href="javascrpt:;" id="BuyPublish" style="text-decoration: none; color: white;" onclick="showPublish()">
                         <img src="<%=HostUrl %>/images/top_ico5.jpg" name="top_ico1" id="top_ico1" style="float: left;" />物件刊登</a>
                         <ul id="DivPublish" style="width: 300px; position: absolute;">
                             <li><a href="<%=HostUrl %>/front/sell.aspx">出售物件</a></li>
@@ -288,7 +288,7 @@
                             <li><a href="<%=HostUrl %>/front/zhsj.aspx">裝潢刊登</a> | </li>
                             <li><a href="<%=HostUrl %>/front/td.aspx">土地刊登</a> | </li>
                         </ul>
-                    </li>
+                    </li>--%>
 
                 </ul>
             </div>

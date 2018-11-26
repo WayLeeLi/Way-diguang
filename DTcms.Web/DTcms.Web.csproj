@@ -2458,7 +2458,9 @@
     <None Include="txt\法院版簡易版.doc" />
     <None Include="txt\英文版.doc" />
     <Content Include="Site5.Master" />
-    <Content Include="xmlconfig\ofubao.config" />
+    <Content Include="xmlconfig\ofubao.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
