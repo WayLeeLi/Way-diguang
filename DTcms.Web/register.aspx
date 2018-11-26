@@ -167,7 +167,7 @@
                         <asp:ListItem Text="商家會員" Value="5" />--%>
                     </asp:DropDownList>
                 </span></li>
-                <li><span class="login_left_1_1">帳戶名:</span><span class="login_left_1_2"><input name="txtusername"
+                <li><span class="login_left_1_1">帳號:</span><span class="login_left_1_2"><input name="txtusername"
                     type="text" id="txtusername" onblur="chkRegUserName(this.value)" class="inputtext"
                     runat="server" />
                 </span></li>
