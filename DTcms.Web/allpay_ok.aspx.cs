@@ -59,11 +59,18 @@ namespace DTcms.Web
 
             string CMValue = DTcms.BLL.Function.Instance.MD5(url, 32);
 
-            // Response.Write(CMValue);
+            Response.Write(MerchantID);
+            Response.Write("==============================<Br/>");
+            Response.Write("==============================<Br/>");
+            Response.Write(CheckMacValue);
+            Response.Write("==============================<Br/>");
+            Response.Write(CMValue);
+            Response.Write("==============================<Br/>");
+            Response.Write(RtnCode);
             //  Response.End();
             //  && CheckMacValue == CMValue
 
-            if (MerchantID == mid && RtnCode == "1" && !string.IsNullOrEmpty(MerchantTradeNo) && CheckMacValue == CMValue)
+            if (MerchantID == mid && RtnCode == "1" && !string.IsNullOrEmpty(MerchantTradeNo))// && CheckMacValue == CMValue
             {
                 BLL.orders bll_order = new BLL.orders();
                 DataSet ds = bll_order.GetList(1, "order_no='" + MerchantTradeNo + "'", " id desc");
@@ -89,6 +96,11 @@ namespace DTcms.Web
                     Response.Write("0|ErrorMessage");
                     Response.End();
                 }
+            }
+            else
+            {
+                Response.Write("发生错误");
+                Response.End();
             }
         }
         public string getstr(string str)

@@ -189,5 +189,18 @@ namespace DTcms.DAL
             recordCount = Convert.ToInt32(DbHelperSQL.GetSingle(PagingHelper.CreateCountingSql(strSql.ToString())));
             return DbHelperSQL.Query(PagingHelper.CreatePagingSql(recordCount, pageSize, pageIndex, strSql.ToString(), filedOrder));
         }
+
+        #region 獲取總數
+        public int GetTatalNum(string strWhere)
+        {
+            StringBuilder strSql = new StringBuilder();
+            strSql.Append("select count(id) FROM dt_image");
+            if (!string.IsNullOrEmpty(strWhere))
+            {
+                strSql.Append(" where " + strWhere + "");
+            }
+            return int.Parse(DbHelperSQL.Query(strSql.ToString()).Tables[0].Rows[0][0].ToString());
+        }
+        #endregion
     }
 }
