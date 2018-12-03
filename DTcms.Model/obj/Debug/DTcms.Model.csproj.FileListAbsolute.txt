@@ -144,8 +144,6 @@ F:\workspace\DTcms\DTcms.Model\bin\Debug\DTcms.Model.dll
 F:\workspace\DTcms\DTcms.Model\bin\Debug\DTcms.Model.pdb
 F:\workspace\DTcms\DTcms.Model\bin\Debug\DTcms.Common.dll
 F:\workspace\DTcms\DTcms.Model\bin\Debug\DTcms.Common.pdb
-F:\workspace\DTcms\DTcms.Model\obj\Debug\DTcms.Model.csprojAssemblyReference.cache
-F:\workspace\DTcms\DTcms.Model\obj\Debug\DTcms.Model.csproj.CoreCompileInputs.cache
-F:\workspace\DTcms\DTcms.Model\obj\Debug\DTcms.Model.csproj.CopyComplete
 F:\workspace\DTcms\DTcms.Model\obj\Debug\DTcms.Model.dll
 F:\workspace\DTcms\DTcms.Model\obj\Debug\DTcms.Model.pdb
+F:\workspace\Dtcms\DTcms.Model\obj\Debug\DTcms.Model.csprojResolveAssemblyReference.cache

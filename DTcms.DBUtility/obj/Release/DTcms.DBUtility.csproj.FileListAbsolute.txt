@@ -18,8 +18,6 @@ F:\workspace\DTcms\DTcms.DBUtility\bin\Release\DTcms.DBUtility.dll
 F:\workspace\DTcms\DTcms.DBUtility\bin\Release\DTcms.DBUtility.pdb
 F:\workspace\DTcms\DTcms.DBUtility\bin\Release\DTcms.Common.dll
 F:\workspace\DTcms\DTcms.DBUtility\bin\Release\DTcms.Common.pdb
-F:\workspace\DTcms\DTcms.DBUtility\obj\Release\DTcms.DBUtility.csprojAssemblyReference.cache
-F:\workspace\DTcms\DTcms.DBUtility\obj\Release\DTcms.DBUtility.csproj.CoreCompileInputs.cache
-F:\workspace\DTcms\DTcms.DBUtility\obj\Release\DTcms.DBUtility.csproj.CopyComplete
 F:\workspace\DTcms\DTcms.DBUtility\obj\Release\DTcms.DBUtility.dll
 F:\workspace\DTcms\DTcms.DBUtility\obj\Release\DTcms.DBUtility.pdb
+F:\workspace\Dtcms\DTcms.DBUtility\obj\Release\DTcms.DBUtility.csprojResolveAssemblyReference.cache

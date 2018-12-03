@@ -375,8 +375,6 @@ F:\workspace\DTcms\DTcms.API\bin\Debug\DTcms.Model.pdb
 F:\workspace\DTcms\DTcms.API\bin\Debug\DTcms.Web.UI.pdb
 F:\workspace\DTcms\DTcms.API\bin\Debug\DTcms.DAL.pdb
 F:\workspace\DTcms\DTcms.API\bin\Debug\DTcms.DBUtility.pdb
-F:\workspace\DTcms\DTcms.API\obj\Debug\DTcms.API.csprojAssemblyReference.cache
-F:\workspace\DTcms\DTcms.API\obj\Debug\DTcms.API.csproj.CoreCompileInputs.cache
-F:\workspace\DTcms\DTcms.API\obj\Debug\DTcms.API.csproj.CopyComplete
 F:\workspace\DTcms\DTcms.API\obj\Debug\DTcms.API.dll
 F:\workspace\DTcms\DTcms.API\obj\Debug\DTcms.API.pdb
+F:\workspace\Dtcms\DTcms.API\obj\Debug\DTcms.API.csprojResolveAssemblyReference.cache

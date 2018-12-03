@@ -92,6 +92,6 @@ F:\陈\DTcms\DTcms.Common\obj\Debug\DTcms.Common.dll
 F:\陈\DTcms\DTcms.Common\obj\Debug\DTcms.Common.pdb
 F:\workspace\DTcms\DTcms.Common\bin\Debug\DTcms.Common.dll
 F:\workspace\DTcms\DTcms.Common\bin\Debug\DTcms.Common.pdb
-F:\workspace\DTcms\DTcms.Common\obj\Debug\DTcms.Common.csproj.CoreCompileInputs.cache
 F:\workspace\DTcms\DTcms.Common\obj\Debug\DTcms.Common.dll
 F:\workspace\DTcms\DTcms.Common\obj\Debug\DTcms.Common.pdb
+F:\workspace\Dtcms\DTcms.Common\obj\Debug\DTcms.Common.csprojResolveAssemblyReference.cache

@@ -270,8 +270,6 @@ F:\workspace\DTcms\DTcms.BLL\bin\Debug\DTcms.Common.pdb
 F:\workspace\DTcms\DTcms.BLL\bin\Debug\DTcms.DAL.pdb
 F:\workspace\DTcms\DTcms.BLL\bin\Debug\DTcms.Model.pdb
 F:\workspace\DTcms\DTcms.BLL\bin\Debug\DTcms.DBUtility.pdb
-F:\workspace\DTcms\DTcms.BLL\obj\Debug\DTcms.BLL.csprojAssemblyReference.cache
-F:\workspace\DTcms\DTcms.BLL\obj\Debug\DTcms.BLL.csproj.CoreCompileInputs.cache
-F:\workspace\DTcms\DTcms.BLL\obj\Debug\DTcms.BLL.csproj.CopyComplete
 F:\workspace\DTcms\DTcms.BLL\obj\Debug\DTcms.BLL.dll
 F:\workspace\DTcms\DTcms.BLL\obj\Debug\DTcms.BLL.pdb
+F:\workspace\Dtcms\DTcms.BLL\obj\Debug\DTcms.BLL.csprojResolveAssemblyReference.cache

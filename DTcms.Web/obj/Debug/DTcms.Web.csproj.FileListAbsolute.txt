@@ -80,8 +80,6 @@ F:\陈\DTcms\DTcms.Web\obj\Debug\DTcms.Web.csproj.CoreCompileInputs.cache
 F:\陈\DTcms\DTcms.Web\obj\Debug\DTcms.Web.csproj.CopyComplete
 F:\陈\DTcms\DTcms.Web\obj\Debug\DTcms.Web.dll
 F:\陈\DTcms\DTcms.Web\obj\Debug\DTcms.Web.pdb
-F:\workspace\DTcms\DTcms.Web\obj\Debug\DTcms.Web.csprojAssemblyReference.cache
-F:\workspace\DTcms\DTcms.Web\obj\Debug\DTcms.Web.csproj.CoreCompileInputs.cache
 F:\workspace\DTcms\DTcms.Web\obj\Debug\DTcms.Web.dll
 F:\workspace\DTcms\DTcms.Web\obj\Debug\DTcms.Web.pdb
 F:\workspace\DTcms\DTcms.Web\bin\DTcms.Web.dll.config
@@ -102,4 +100,4 @@ F:\workspace\DTcms\DTcms.Web\bin\DTcms.DAL.pdb
 F:\workspace\DTcms\DTcms.Web\bin\DTcms.Model.pdb
 F:\workspace\DTcms\DTcms.Web\bin\DTcms.Web.UI.pdb
 F:\workspace\DTcms\DTcms.Web\bin\DTcms.DBUtility.pdb
-F:\workspace\DTcms\DTcms.Web\obj\Debug\DTcms.Web.csproj.CopyComplete
+F:\workspace\Dtcms\DTcms.Web\obj\Debug\DTcms.Web.csprojResolveAssemblyReference.cache

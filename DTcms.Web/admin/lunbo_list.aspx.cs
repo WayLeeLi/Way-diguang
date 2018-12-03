@@ -28,10 +28,11 @@ namespace DTcms.Web.admin
             this.keywords = DTRequest.GetQueryString("keywords");
             this.property = DTRequest.GetQueryString("property");
             this.pageSize = GetPageSize(15); //每頁數量
+            where = "  Typeid<>12";
             if (!Page.IsPostBack)
             {
                 ChkAdminLevel("sys_model", DTEnums.ActionEnum.View.ToString()); //檢查許可權
-                RptBind("");
+                RptBind(" ");
             }
         }
 
@@ -41,14 +42,14 @@ namespace DTcms.Web.admin
             this.page = DTRequest.GetQueryInt("page", 1);
             if (!string.IsNullOrEmpty(ddlType.SelectedValue))
             {
-                _strWhere = " Typeid=" + ddlType.SelectedValue;
+                _strWhere = " Typeid=" + ddlType.SelectedValue + "" + "AND";
             }
             DAL.imagedal aredal = new DAL.imagedal();
             this.rptList.DataSource = aredal.GetDatalistpage(this.pageSize, this.page, _strWhere + where, " sort", out this.totalCount);
             this.rptList.DataBind();
 
             //綁定頁碼
-            this.totalCount = aredal.GetTatalNum(_strWhere);
+            this.totalCount = aredal.GetTatalNum(_strWhere + where);
             txtPageNum.Text = this.pageSize.ToString();
             string pageUrl = Utils.CombUrlTxt("lunbo_list.aspx", "channel_id={0}&category_id={1}&keywords={2}&property={3}&page={4}",
                 this.channel_id.ToString(), this.category_id.ToString(), this.keywords, this.property, "__id__");

@@ -7,6 +7,7 @@
     <title>圖片管理列表</title>
     <link type="text/css" rel="stylesheet" href="../scripts/ui/skins/Aqua/css/ligerui-all.css" />
     <link type="text/css" rel="stylesheet" href="images/style.css" />
+    <link type="text/css" rel="stylesheet" href="../../css/pagination.css" />
     <script type="text/javascript" src="../scripts/jquery/jquery-1.3.2.min.js"></script>
     <script type="text/javascript" src="../scripts/ui/js/ligerBuild.min.js"></script>
     <script type="text/javascript" src="js/function.js"></script>
@@ -19,6 +20,8 @@
         <div class="tools_box">
             <div class="tools_bar">
                 <div class="search_box">
+                    <asp:TextBox ID="txtKeywords" runat="server" CssClass="txtInput"></asp:TextBox>
+
                     類型:
                 <asp:DropDownList ID="ddlType" runat="server">
                     <asp:ListItem Text="請選擇" Value="" />
