@@ -61,4 +61,6 @@ F:\workspace\DTcms\DTcms.Web\bin\DTcms.Web.UI.pdb
 F:\workspace\DTcms\DTcms.Web\bin\DTcms.DBUtility.pdb
 F:\workspace\DTcms\DTcms.Web\obj\Release\DTcms.Web.dll
 F:\workspace\DTcms\DTcms.Web\obj\Release\DTcms.Web.pdb
-F:\workspace\Dtcms\DTcms.Web\obj\Release\DTcms.Web.csprojResolveAssemblyReference.cache
+F:\workspace\DTcms\DTcms.Web\obj\Release\DTcms.Web.csprojAssemblyReference.cache
+F:\workspace\DTcms\DTcms.Web\obj\Release\DTcms.Web.csproj.CoreCompileInputs.cache
+F:\workspace\DTcms\DTcms.Web\obj\Release\DTcms.Web.csproj.CopyComplete

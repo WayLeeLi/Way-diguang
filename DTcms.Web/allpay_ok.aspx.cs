@@ -59,14 +59,14 @@ namespace DTcms.Web
 
             string CMValue = DTcms.BLL.Function.Instance.MD5(url, 32);
 
-            Response.Write(MerchantID);
-            Response.Write("==============================<Br/>");
-            Response.Write("==============================<Br/>");
-            Response.Write(CheckMacValue);
-            Response.Write("==============================<Br/>");
-            Response.Write(CMValue);
-            Response.Write("==============================<Br/>");
-            Response.Write(RtnCode);
+            //Response.Write(MerchantID);
+            //Response.Write("==============================<Br/>");
+            //Response.Write("==============================<Br/>");
+            //Response.Write(CheckMacValue);
+            //Response.Write("==============================<Br/>");
+            //Response.Write(CMValue);
+            //Response.Write("==============================<Br/>");
+            //Response.Write(RtnCode);
             //  Response.End();
             //  && CheckMacValue == CMValue
 
@@ -79,10 +79,14 @@ namespace DTcms.Web
                     int bk = bll_order.UpOrderState(MerchantTradeNo);
                     if (bk > 0)
                     {
-                        setEmail();
+                        string Url = "index.aspx?";
+                        
+                        this.Page.ClientScript.RegisterStartupScript(GetType(), "", "<script>alert('付款成功，將跳回首頁');window.location.href = '" + Url + "';</script>");
+                        Response.Redirect(url);
+                        //setEmail();
                         //Response.Write("1|OK");
-                        this.Page.ClientScript.RegisterStartupScript(GetType(), "", "<script>alert('付款成功，將跳回首頁');window.location.href='/'</script>");
-                        Response.End();
+                        //this.Page.ClientScript.RegisterStartupScript(GetType(), "", "<script>alert('送出訂單成功，請牢記訂單號');window.location.href = '" + Url + "';</script>");
+                        //Response.End();
                     }
                     else
                     {
